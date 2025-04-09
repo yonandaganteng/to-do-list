@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefae0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #606c38;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+    input[type="checkbox"] {
+      margin-right: 15px;
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>To Do List</h1>
+    <ul>
+      <li><input type="checkbox" /> Belajar HTML & CSS</li>
+      <li><input type="checkbox" /> Tambah proyek ke GitHub</li>
+      <li><input type="checkbox" /> Review tugas kampus</li>
+      <li><input type="checkbox" /> Istirahat & minu kopi </li>
+    </ul>
+  </div>
+</body>
+</html>
